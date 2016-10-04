@@ -1,4 +1,6 @@
 .bundle/
 .idea/
-.rake_tasks
+
+.directory
 .DS_Store
+.rake_tasks
