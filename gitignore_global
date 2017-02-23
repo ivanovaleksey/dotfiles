@@ -4,3 +4,4 @@
 .directory
 .DS_Store
 .rake_tasks
+*.swp
