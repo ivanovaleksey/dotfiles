@@ -8,6 +8,8 @@ set cursorcolumn
 
 let g:airline_theme='luna'
 
+syntax enable
+
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
 call plug#begin('~/.vim/plugged')
 
