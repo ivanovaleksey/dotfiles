@@ -1,6 +1,6 @@
 [core]
 	excludesfile = /Users/aleksey/.gitignore_global
-	editor = mvim -f
+	editor = vim
 [user]
 	name = Aleksey Ivanov
 	email = ialexxei@gmail.com
