@@ -92,7 +92,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#export PATH="$HOME/.rbenv/bin:$PATH"
+# export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
@@ -102,3 +102,5 @@ fi
 
 # added by travis gem
 [ -f /Users/aleksey/.travis/travis.sh ] && source /Users/aleksey/.travis/travis.sh
+
+export BUNDLER_EDITOR=subl
