@@ -59,6 +59,7 @@ plugins=(
   git
   rails
   rake-fast
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
