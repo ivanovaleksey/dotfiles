@@ -6,6 +6,8 @@ set laststatus=2
 set colorcolumn=120
 set cursorcolumn
 
+set backspace=indent,eol,start
+
 let g:airline_theme='luna'
 
 syntax enable
