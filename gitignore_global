@@ -1,5 +1,6 @@
 .bundle/
 .idea/
+.vscode/
 
 .directory
 .DS_Store
