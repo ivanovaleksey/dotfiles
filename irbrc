@@ -1,7 +1,7 @@
-require 'rubygems'
-require 'awesome_print'
-require 'interactive_editor'
-
+# require 'rubygems'
+# require 'awesome_print'
+# require 'interactive_editor'
+# 
 require 'irb/completion'
 require 'irb/ext/save-history'
 
