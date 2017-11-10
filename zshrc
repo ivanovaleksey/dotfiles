@@ -56,6 +56,7 @@ plugins=(
   common-aliases
   docker
   docker-compose
+  docker-machine
   git
   rails
   rake-fast
