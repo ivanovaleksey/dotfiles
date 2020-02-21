@@ -96,9 +96,9 @@ source $ZSH/oh-my-zsh.sh
 # export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-if [ "Running" = "$(docker-machine status default)" ]; then
-  eval "$(docker-machine env default)"
-fi
+# if [ "Running" = "$(docker-machine status default)" ]; then
+#   eval "$(docker-machine env default)"
+# fi
 
 LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
 if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then
