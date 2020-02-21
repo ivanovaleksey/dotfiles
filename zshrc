@@ -106,3 +106,5 @@ if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then
 fi
 
 export BUNDLER_EDITOR=code
+
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
