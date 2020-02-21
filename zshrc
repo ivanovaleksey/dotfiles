@@ -107,4 +107,8 @@ fi
 
 export BUNDLER_EDITOR=code
 
+export GOPATH=$HOME/Code/go
+export GOBIN=$GOPATH/bin
+
+export PATH=$PATH:$GOBIN
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
